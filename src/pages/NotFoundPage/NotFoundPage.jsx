@@ -26,7 +26,7 @@ const NotFoundPage = () => {
                 </div>
                 <div className={style.item}>
                     <img className={style.cat} src={picture} alt="fon"/>
-                    <Link to="/" className={style.link}>
+                    <Link to="/technical_boost_test" className={style.link}>
                         <button  className={style.btmHome}>
                             go home
                         </button>

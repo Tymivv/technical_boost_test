@@ -16,8 +16,8 @@ function App() {
     <Suspense fallback={<Loadind />}>
       <Navigation />
       <Routes>
-        <Route path="/" element={ <HomePage /> } />
-        <Route path="/tweets" element={ <UsersPage /> } />
+        <Route path="/technical_boost_test" element={ <HomePage /> } />
+        <Route path="/technical_boost_test/tweets" element={ <UsersPage /> } />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
       </Suspense>
